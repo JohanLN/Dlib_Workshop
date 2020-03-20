@@ -1,0 +1,175 @@
+#include <dlib/dnn.h>
+#include <dlib/gui_widgets.h>
+#include <dlib/clustering.h>
+#include <dlib/string.h>
+#include <dlib/image_io.h>
+#include <dlib/image_processing/frontal_face_detector.h>
+#include <fstream>
+#include <iostream>
+
+using namespace dlib;
+using namespace std;
+
+/* ICI ON RETROUVE TOUT UN GROUPE DE TEMPLATE QUI VONT PERMETTRE DE DESERIALISER LE MODEL DE RECONNAISSANCE FACIALE POUR POUVOIR L'UTILISER */
+
+template <template <int,template<typename>class,int,typename> class block, int N, template<typename>class BN, typename SUBNET>
+using residual = add_prev1<block<N,BN,1,tag1<SUBNET>>>;
+
+template <template <int,template<typename>class,int,typename> class block, int N, template<typename>class BN, typename SUBNET>
+using residual_down = add_prev2<avg_pool<2,2,2,2,skip1<tag2<block<N,BN,2,tag1<SUBNET>>>>>>;
+
+template <int N, template <typename> class BN, int stride, typename SUBNET> 
+using block  = BN<con<N,3,3,1,1,relu<BN<con<N,3,3,stride,stride,SUBNET>>>>>;
+
+template <int N, typename SUBNET> using ares      = relu<residual<block,N,affine,SUBNET>>;
+template <int N, typename SUBNET> using ares_down = relu<residual_down<block,N,affine,SUBNET>>;
+
+template <typename SUBNET> using alevel0 = ares_down<256,SUBNET>;
+template <typename SUBNET> using alevel1 = ares<256,ares<256,ares_down<256,SUBNET>>>;
+template <typename SUBNET> using alevel2 = ares<128,ares<128,ares_down<128,SUBNET>>>;
+template <typename SUBNET> using alevel3 = ares<64,ares<64,ares<64,ares_down<64,SUBNET>>>>;
+template <typename SUBNET> using alevel4 = ares<32,ares<32,ares<32,SUBNET>>>;
+
+using anet_type = loss_metric<fc_no_bias<128,avg_pool_everything<
+                            alevel0<
+                            alevel1<
+                            alevel2<
+                            alevel3<
+                            alevel4<
+                            max_pool<3,3,2,2,relu<affine<con<32,7,7,2,2,
+                            input_rgb_image_sized<150>
+                            >>>>>>>>>>>>;
+
+/* SAVEFACE FUNCTION SAVE THE FACE_DESCRIPTION OF THE SUBJECT  */
+
+void saveFace(std::vector<matrix<float,0,1>> face_descriptors) {
+
+	/* pour enregistrer les visages on va simplement ecrire leur face descriptor dans un fichier */
+	
+    ofstream myfile;
+    myfile.open("Ressources/test.txt");
+    for (int i = 0; i < face_descriptors[0].size(); i++) {
+        myfile << face_descriptors[0](i) << "\n";
+    }
+    myfile.close();
+    std::cout << "face_descriptor saved in file test.txt" << std::endl;
+}
+
+/* DETECTFACE FUNCTION MAKES THE DETECTION FROM THE SAVED SUBJECT  */
+
+void detectFace(std::vector<matrix<float,0,1>> face_descriptors, matrix<rgb_pixel> &img, std::vector<rectangle> face) {
+
+	/* detection des visages le point for du projet */
+
+	/* creation d'une fenêtre affichant l'image ciblée */
+	image_window win(img);
+
+	/* variable pour calculer la précision de detection */
+	float acuracy;
+
+	/* notre matrice de reception du face descriptor enregistrer dans le fichier */
+	matrix<float,0,1> datas;
+	datas.set_size(128);
+
+	/* ouverture du fichier contenant le visage sauvegardé */
+	ifstream myfile;
+	myfile.open("Ressources/test.txt");
+
+	/* des variables de receptions */
+	float num;
+	int count = 0;
+
+	/* récupération des données du fichier dans la matrice datas */
+	while (myfile) {
+		myfile >> num;
+		datas(count) = num;
+		count++;
+	}
+
+	/* boucle de detection */
+	for (size_t j = 0; j < face_descriptors.size(); ++j)
+	{
+		/* on compare chaques visages présents sur le sujet et on verifie si l'un d'eux conrresponds à notre target */
+		if ((acuracy = 1 - length(datas-face_descriptors[j])) > 0.5) {
+			win.add_overlay(image_window::overlay_rect(face[j], rgb_pixel(255,0,0), "Recognize at : " + to_string(acuracy*100) + " %"));
+		} else {
+			win.add_overlay(dlib::image_window::overlay_rect(face[j], rgb_pixel(255,0,0),"Unknow at " + to_string(acuracy*100) + " %" ));
+		}
+		std::cout << "\nThe face of the subject correspond at " << (acuracy*100) << "\n" << std::endl;
+	}
+	cout << "hit enter to terminate" << endl;
+	cin.get();
+}
+
+/* MAIN FUNCTION  */
+
+int main(int argc, char** argv) try
+{
+	/* message d'erreur si les paramêtres ne sont pas suffisant */
+    if (argc != 3)
+    {
+        std::cout << "Il vous manque une image a donner en paramètre par exemple : ./facialRecon --save ../faces/../faces/philippe.loctaux.jpg pour sauvegarder un visage ou \n ./facialRecon --detect ../faces/bald_guys.jpg pour lancer la detection à partir du visage sauvegardé" << std::endl;
+        return 84;
+    }
+    
+    /* frontal face detector qui va s'occupper d'identifier si le visage detecté est un visage humain et ainsi renseigner la position exact du visage sur l'image */
+    frontal_face_detector detector = get_frontal_face_detector();
+
+    /* shape predictor va determiner les forme charactéristique du visage */
+    shape_predictor sp;
+    deserialize("Ressources/shape_predictor_5_face_landmarks.dat") >> sp;
+
+    /* anet type va nous donner le face descriptor du visage suivant les indications des 2 types précédents */
+    anet_type net;
+    deserialize("Ressources/dlib_face_recognition_resnet_model_v1.dat") >> net;
+
+    /* on load l'image */
+    matrix<rgb_pixel> img;
+    load_image(img, argv[2]);
+
+    /* faces est une matrice à 2 entrées qui grâce au face detector et shape predictor va acquérir les détails importants des visages pour le face descriptor */
+    std::vector<matrix<rgb_pixel>> faces;
+
+    /* position du visage (il est contenu dans un rectangle que l'on dessinera à l'image pour pour avoir un apperçu de la detection */
+    std::vector<rectangle> face;
+    
+    for (int count = 0; count < detector(img).size(); count++)
+    {
+	/* on sauvegarde les positions du rectangle de detection */
+        face = detector(img);
+
+	/* on determine les formes charactéristiques du visage */
+	auto shapes = sp(img, face[count]);
+
+	/* face chip est une matrice contenant les détails du visages */
+        matrix<rgb_pixel> face_chip;
+        extract_image_chip(img, get_face_chip_details(shapes,150,0.25), face_chip);
+
+	/* on cumule chaque détail de visage dans faces pour réaliser le face descriptor */
+        faces.push_back(move(face_chip));
+    }
+
+    /* message d'erreur pour valider qu'il y a au moins 1 visage humain sur l'image */
+    if (faces.size() == 0)
+    {
+        cout << "Aucun visage humain sur cette photo" << endl;
+        return 84;
+    }
+
+    /* on rempli notre fameux face descriptor pour réaliser la reconnaissance de visage */
+    std::vector<matrix<float,0,1>> face_descriptors = net(faces);
+
+    /* condition pour sauvegarder un visage */
+    if (strcmp(argv[1],"--save") == 0) {
+       saveFace(face_descriptors);
+    }
+
+    /* condition pour la reconnaissance faciale */
+    else if (strcmp(argv[1],"--detect") == 0) {
+	    detectFace(face_descriptors, img, face);
+    }
+}
+catch (std::exception& e)
+{
+    cout << e.what() << endl;
+}
