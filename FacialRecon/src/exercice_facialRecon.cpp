@@ -4,6 +4,7 @@
 #include <dlib/string.h>
 #include <dlib/image_io.h>
 #include <dlib/image_processing/frontal_face_detector.h>
+#include <dlib/image_processing/render_face_detections.h>
 #include <fstream>
 #include <iostream>
 
@@ -52,7 +53,7 @@ void saveFace(std::vector<matrix<float,0,1>> face_descriptors) {
 
 void detectFace(std::vector<matrix<float,0,1>> face_descriptors, matrix<rgb_pixel> &img, std::vector<rectangle> face) {
 
-	/* detection des visages le point for du projet */
+	/* detection des visages le point fort du projet */
 
 }
 
@@ -66,7 +67,9 @@ int main(int argc, char** argv) try
         std::cout << "Il vous manque une image a donner en paramètre par exemple : ./facialRecon --save ../faces/../faces/philippe.loctaux.jpg pour sauvegarder un visage ou \n ./facialRecon --detect ../faces/bald_guys.jpg pour lancer la detection à partir du visage sauvegardé" << std::endl;
         return 84;
     }
-    
+
+    std::cout << "Press enter to continue !" << std::endl;
+    cin.get();
 }
 catch (std::exception& e)
 {
