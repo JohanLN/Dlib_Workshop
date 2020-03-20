@@ -15,6 +15,6 @@ Et enfin le projet lui même dans le dossier FacialRecon.
 
    À l'intérieur de ce dernier vous trouver un script shell compile.sh qui suffira d'exécuter via la commande : " ./compile.sh ",
    et le projet se compilera de lui même. Afin de lancer le programme vous devrez rentrer la commande suivant : " ./FacialRecon --save ../faces/<une image du répertoire> ",
-      	 	   	     	    	       	  	    	      	   	  	     	      	      	  -> pour pouvoir sauvegarder un visage dans une base donnée.
+      	 	   	     	    	       	  	    	      	   	  	     	      	      	  -> pour pouvoir sauvegarder un visage.
       	      	      		     	    									  "./FacialRecon --detect ../faces/<une image du répertoire> "
 														  -> pour pouvoir comparer un ou plusieurs visages à celui sauvegardé.
