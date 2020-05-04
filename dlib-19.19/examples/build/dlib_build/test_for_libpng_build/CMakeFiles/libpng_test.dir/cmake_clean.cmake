@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/libpng_test.dir/libpng_test.cpp.o"
-  "libpng_test.pdb"
   "libpng_test"
+  "libpng_test.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

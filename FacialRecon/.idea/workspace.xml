@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="facial_recon" targetName="dlib" />
+      <config projectName="facial_recon" targetName="facialRecon" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="31295440-9bd8-4c49-831f-4a661ea01c5d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.13.4/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.13.4/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.13.4/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.13.4/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.13.4/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.13.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.13.4/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CheckTypeSize/SIZE_OF_VOID_PTR.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CheckTypeSize/SIZE_OF_VOID_PTR.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CheckTypeSize/SIZE_OF_VOID_PTR.c" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CheckTypeSize/SIZE_OF_VOID_PTR.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/facialRecon.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/facialRecon.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/facialRecon.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/facialRecon.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/facialRecon.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/facialRecon.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/facialRecon.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/facialRecon.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/facialRecon.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/facialRecon.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/facialRecon.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/facialRecon.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/facialRecon.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/facialRecon.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/facialRecon.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/facialRecon.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/facialRecon.dir/src/facialRecon.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/facialRecon.dir/src/facialRecon.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/data_io/mnist.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/data_io/mnist.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/test_for_odr_violations.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/test_for_odr_violations.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/unicode/unicode.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/CMakeFiles/dlib.dir/unicode/unicode.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/libdlib.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/libdlib.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/test_for_libpng_build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/test_for_libpng_build/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/test_for_libpng_build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/test_for_libpng_build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/test_for_libpng_build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/test_for_libpng_build/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/test_for_libpng_build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/test_for_libpng_build/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/test_for_libpng_build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/test_for_libpng_build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/libpng_test.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/libpng_test.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/test_for_libpng_build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/test_for_libpng_build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/test_for_libpng_build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/test_for_libpng_build/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dlib_build/test_for_libpng_build/libpng_test" beforeDir="false" afterPath="$PROJECT_DIR$/build/dlib_build/test_for_libpng_build/libpng_test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZE_OF_VOID_PTR.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZE_OF_VOID_PTR.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/facialRecon.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/facialRecon.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/facialRecon.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/facialRecon.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/facialRecon.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/facialRecon.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/facialRecon.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/facialRecon.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/CMakeFiles/dlib.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/CMakeFiles/dlib.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/CMakeFiles/dlib.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/CMakeFiles/dlib.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/test_for_libpng_build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/test_for_libpng_build/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/test_for_libpng_build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/test_for_libpng_build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/test_for_libpng_build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/test_for_libpng_build/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/test_for_libpng_build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/test_for_libpng_build/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/test_for_libpng_build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/test_for_libpng_build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/libpng_test.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/libpng_test.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/test_for_libpng_build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/test_for_libpng_build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/test_for_libpng_build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/test_for_libpng_build/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/test_for_libpng_build/libpng_test" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/test_for_libpng_build/libpng_test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/facial_recon.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/facial_recon.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facialRecon" beforeDir="false" afterPath="$PROJECT_DIR$/facialRecon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/facialRecon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/facialRecon.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/#webcam_face_pose_ex.cpp#" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/#webcam_face_pose_ex.cpp#" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/3.13.4/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/3.13.4/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/3.13.4/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/3.13.4/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/3.13.4/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/3.13.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/3.13.4/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/CheckTypeSize/SIZE_OF_VOID_PTR.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/CheckTypeSize/SIZE_OF_VOID_PTR.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/CheckTypeSize/SIZE_OF_VOID_PTR.c" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/CheckTypeSize/SIZE_OF_VOID_PTR.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/Progress/count.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/Progress/count.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/sqlite_ex.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/sqlite_ex.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/sqlite_ex.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/sqlite_ex.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/sqlite_ex.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/sqlite_ex.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/sqlite_ex.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/webcam_face_pose_ex.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/webcam_face_pose_ex.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/webcam_face_pose_ex.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/webcam_face_pose_ex.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/webcam_face_pose_ex.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/webcam_face_pose_ex.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/webcam_face_pose_ex.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/webcam_face_pose_ex.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/webcam_face_pose_ex.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/webcam_face_pose_ex.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/webcam_face_pose_ex.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/webcam_face_pose_ex.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/webcam_face_pose_ex.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/webcam_face_pose_ex.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/webcam_face_pose_ex.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/webcam_face_pose_ex.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/webcam_face_pose_ex.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/CMakeFiles/webcam_face_pose_ex.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/data_io/mnist.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/data_io/mnist.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/test_for_odr_violations.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/test_for_odr_violations.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/unicode/unicode.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/dlib.dir/unicode/unicode.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/libdlib.a" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/libdlib.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libjpeg_build/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libjpeg_build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libjpeg_build/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libjpeg_build/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libjpeg_build/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libjpeg_build/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libjpeg_build/CMakeFiles/libjpeg_test.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libjpeg_build/CMakeFiles/libjpeg_test.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libjpeg_build/CMakeFiles/libjpeg_test.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libjpeg_build/CMakeFiles/libjpeg_test.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libjpeg_build/CMakeFiles/libjpeg_test.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libjpeg_build/CMakeFiles/libjpeg_test.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libjpeg_build/CMakeFiles/libjpeg_test.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libjpeg_build/CMakeFiles/libjpeg_test.dir/libjpeg_test.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libjpeg_build/CMakeFiles/libjpeg_test.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libjpeg_build/CMakeFiles/libjpeg_test.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libjpeg_build/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libjpeg_build/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libjpeg_build/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libjpeg_build/libjpeg_test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libpng_build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libpng_build/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libpng_build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libpng_build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libpng_build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libpng_build/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libpng_build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libpng_build/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libpng_build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libpng_build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/libpng_test.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/libpng_test.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libpng_build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libpng_build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libpng_build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libpng_build/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libpng_build/libpng_test" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/build/dlib_build/test_for_libpng_build/libpng_test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlib-19.19/examples/webcam_face_pose_ex.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../dlib-19.19/examples/webcam_face_pose_ex.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1V4eTjNCzf5zfnjCiSZCYZpK3O3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.facialRecon">
+    <configuration name="dlib" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="facial_recon" TARGET_NAME="dlib" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="facialRecon" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="facial_recon" TARGET_NAME="facialRecon" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="facial_recon" RUN_TARGET_NAME="facialRecon">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.facialRecon" />
+      <item itemvalue="CMake Application.dlib" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31295440-9bd8-4c49-831f-4a661ea01c5d" name="Default Changelist" comment="" />
+      <created>1576516803706</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576516803706</updated>
+      <workItem from="1576516807031" duration="7850000" />
+      <workItem from="1576664527476" duration="4468000" />
+      <workItem from="1576689942584" duration="1402000" />
+      <workItem from="1576794806391" duration="25000" />
+      <workItem from="1576795721294" duration="516000" />
+      <workItem from="1577031005148" duration="3681000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="590" y="215" width="800" height="684" key="#New_File_Extensions" timestamp="1576665367847">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="590" y="215" width="800" height="684" key="#New_File_Extensions/70.27.1850.1053@70.27.1850.1053" timestamp="1576665367847" />
+    <state x="453" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576690723218">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="453" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1576690723218" />
+    <state x="555" y="358" width="800" height="398" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577038332417">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="358" width="800" height="398" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1577038332417" />
+    <state x="778" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1576690709050">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="778" y="311" width="424" height="491" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1576690709050" />
+    <state width="1804" height="275" key="GridCell.Tab.0.bottom" timestamp="1576518126630">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="275" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1576518126630" />
+    <state width="1804" height="275" key="GridCell.Tab.0.center" timestamp="1576518126629">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="275" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1576518126629" />
+    <state width="1804" height="275" key="GridCell.Tab.0.left" timestamp="1576518126629">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="275" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1576518126629" />
+    <state width="1804" height="275" key="GridCell.Tab.0.right" timestamp="1576518126629">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="275" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1576518126629" />
+    <state x="603" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1577031005828">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="603" y="380" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1577031005828" />
+    <state x="651" y="380" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1576664547440" />
+  </component>
+</project>
